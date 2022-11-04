@@ -3,15 +3,16 @@ const cashGiven = document.querySelector("#cash-given");
 const checkButton = document.querySelector("#check-button");
 const message = document.querySelector("#error-message");
 
-addEventListener.checkButton("click", function validateBillAmount(){
-    if(billAmount.value > 0){
+addEventListener.checkButton("click", () => console.log("clicked");
+//  function validateBillAmount(){
+//     if(billAmount.value > 0){
 
 
-    }else{
-        message.innerText = "The bill amount should be greater than 0";
-    }
+//     }else{
+//         message.innerText = "The bill amount should be greater than 0";
+//     }
 
-});
+// });
 
 
 
