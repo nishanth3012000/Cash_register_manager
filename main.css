@@ -23,6 +23,16 @@
 .input-label{
     text-align: center;
     padding: 1rem;
+    box-sizing: border-box;
+     
+}
+.input{
+    margin: 1rem;
+    padding: 0.6rem 1rem;
+    width: 100%;
+    max-width: 258px;
+    border-radius: 1rem;
+
 }
 #check-button{
     border-radius: 0.5rem;
